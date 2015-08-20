@@ -274,14 +274,6 @@
 
                     <td class="element_emergency_contact_information_phone_number_text" valign="top"><input type="text" placeholder="Phone Number" name="element_emergency_contact_information_phone_number_text" maxlength="50" size="20"></td>
                 </tr>
-
-                <! Row 3 within emergency contact information>
-                <tr class="row_emergency_contact_information_comments">
-                    <td class="element_emergency_contact_information_comments_label" valign="top"><label for="element_emergency_contact_information_comments_label">Comments:</label></td>
-
-                    <td class="element_emergency_contact_information_comments_text" valign="top"><textarea placeholder="Comments" name="element_emergency_contact_information_comments_text" maxlength="1000" cols="25" rows="6">
-</textarea></td>
-                </tr>
             </table>
         </fieldset>
         
@@ -303,6 +295,7 @@
                     <td class="element_setup_your_account_username_label" valign="top"><label for="element_setup_your_account_username_label">Username:</label></td>
 
                     <td class="element_setup_your_account_username_text" valign="top"><input type="text" placeholder="Username" name="element_setup_your_account_username_text" maxlength="50" size="20"></td>
+
                 </tr>
 
                 <! Row 2 within setup your account>
@@ -315,14 +308,23 @@
                 <! Row 3 within setup your account>
                 <tr class="row_setup_your_account_confirm_password">
                     <td class="element_setup_your_account_confirm_password_label" valign="top"><label for="element_setup_your_account_confirm_password_label">Confirm Password:</label></td>
-
-                    <td class="element_setup_your_account_confirm_password_text" valign="top"><input type="password" placeholder="Confirm Password" name="element_setup_your_account_confirm_password_text" maxlength="50" size="20"></td>
+                    
+					<td class="element_setup_your_account_confirm_password_text" valign="top"><input type="password" placeholder="Confirm Password" name="element_setup_your_account_confirm_password_text" maxlength="50" size="20"></td>
+                </tr>
                     
                     <! Row 4 within emergency contact information>
                 <tr class="row_emergency_submit">
                     <td class="button" colspan="3" style="text-align:center"><input type="submit" value="Submit"></td>
                 </tr>
-            </table>
+                </table>  
+                
+                <! Table next to the other table in setup in your account. Contains comments>
+                <table class="table_setup_your_account_comments" align="right"> 
+	                
+	              <td class="element_emergency_contact_information_comments_text" valign="top"><textarea placeholder="Comments" name="element_emergency_contact_information_comments_text" maxlength="1000" cols="25" rows="6">
+</textarea></td>
+  
+				</table> 
         </fieldset>
 	</form>
 </body>
