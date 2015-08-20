@@ -2,8 +2,13 @@
 h1{
 	font-family: cursive;
 	font-size: 50px;
+	margin-top: 1px;
 }
 
+.bc_logo{
+	height: 70px;
+	margin-left: 47%;
+}
 
 
 
@@ -129,6 +134,15 @@ h1{
 	width: 250px;
 	float:right;
 }
+
+
+
+.bc_logo_empty{
+	height: 40px;
+	margin-left: 48%;
+	margin-top: 2%;
+}
+
 
 
 
