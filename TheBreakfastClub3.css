@@ -30,17 +30,17 @@ h1{
 	table-layout: fixed;
 }
 
-.element_player_information_first_name_label{
-	width: 20%;
+.element_player_information_name_label{
+	width: 21%;
 }
 
-.element_player_information_last_name_label{
-	width: 15%
+.element_player_information_nickname_label{
+	width: 22%;
 }
 
-
-
-
+.element_player_information_nickname_text{
+	width: 22%;
+}
 
 .table_player_information_position{
 	font-family: HelveticaNeue-Light;
@@ -69,13 +69,37 @@ h1{
 	table-layout: fixed;
 }
 
-.element_parent_information_first_name_label{
-	width: 20%;
+.element_parent_information_name_label{
+	width: 21%;
 }
 
-.element_parent_information_last_name_label{
-	width: 15%;
+.element_parent_information_home_phone_label{
+	width: 22%;
 }
+
+.element_parent_information_home_phone_text{
+	width: 22%;
+}
+
+.table_parent_information_address{
+	font-family: HelveticaNeue-Light;
+	width: 670px;
+	table-layout: fixed;
+}
+
+
+.element_parent_information_address_label{
+	width: 21%;
+}
+
+.element_parent_information_address_1_text{
+	width: 22%;
+}
+
+.element_parent_information_address_2_text{
+	width: 22%;
+}
+
 
 
 
@@ -99,13 +123,19 @@ h1{
 	table-layout: fixed;
 }
 
-.element_emergency_contact_information_first_name_label{
-	width: 20%
+.element_emergency_contact_information_name_label{
+	width: 21%
 }
 
-.element_emergency_contact_information_last_name_label{
-	width: 15%
+.element_emergency_contact_information_relation_to_player_label{
+	width: 22%
 }
+
+.element_emergency_contact_information_relation_to_player_text{
+	width: 22%
+}
+
+
 
 
 
@@ -132,7 +162,7 @@ h1{
 
 .table_setup_your_account_comments{
 	width: 250px;
-	float:right;
+	float:left;
 }
 
 

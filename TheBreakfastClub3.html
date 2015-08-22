@@ -4,7 +4,7 @@
 	<head>
 <link href="TheBreakfastClub3.css" rel="stylesheet">
 	<img src="BC_Logo2.png" class="bc_logo">
-	<h1 align="center">The BreakFast Club Registration<hr></h1>
+	<h1 align="center">The BreakFast Club Registration</h1>
 	</head>
 	
 	<! Start of javascript>
@@ -67,33 +67,32 @@
             <table class="table_player_information" align="center">
                 
                 <! Row 1 within player information>
-                <tr class="row_player_information_first_name">
-                    <td class="element_player_information_first_name_label" valign="top"><label for="element_player_information_first_name_label">First Name:</label></td>
+                <tr class="row_player_information_name">
+                    <td class="element_player_information_name_label" valign="top"><label for="element_player_information_name_label">Name:</label></td>
 
-                    <td class="element_player_information_first_name_text" valign="top"><input type="text" placeholder="First Name" name="element_player_information_first_name_text" maxlength="50" size="20"></td>
+                    <td class="element_player_information_name_text" valign="top"><input type="text" placeholder="Name" name="element_player_information_name_text" maxlength="50" size="20"></td>
+                    
+                    <td class="element_player_information_nickname_label" valign="top"><label for="element_player_information_nickname_label">Nickname:</label></td>
 
-                    <td class="element_player_information_last_name_label" valign="top"><label for="element_player_information_last_name_label">Last Name:</label></td>
-
-                    <td class="element_player_information_last_name_text" valign="top"><input type="text" placeholder="Last Name" name="element_player_information_last_name_text" maxlength="50" size="20"></td>
+                    <td class="element_player_information_nickname_text" valign="top"><input type="text" placeholder="Nickname" name="element_player_information_nickname_text" maxlength="30" size="20"></td>
                 </tr>
                 
                 <! Row 2 within player information>
-                <tr class="row_player_information_phone_number">
-                    <td class="element_player_information_phone_number_label" valign="top"><label for="element_player_information_phone_number_label">Phone Number:</label></td>
-
-                    <td class="element_player_information_phone_number_text" valign="top"><input type="text" placeholder="Phone Number" name="element_player_information_phone_number_text" maxlength="30" size="20"></td>
+                <tr class="row_player_information_email_address">
                     
                     <td class="element_player_information_email_address_label" valign="top"><label for="element_player_information_email_address_label">Email Address:</label></td>
 
                     <td class="element_player_information_email_address_text" valign="top"><input type="text" placeholder="Email Address" name="element_player_information_email_address_text" maxlength="50" size="20"></td>
+                    
+                    <td class="element_player_information_school_label" valign="top"><label for="element_player_information_school_label">School:</label></td>
+
+                    <td class="element_player_information_school_text" valign="top"><input type="text" placeholder="School" name="element_player_information_school_text" maxlength="30" size="20"></td>
                 </tr>
-            </table>
-            
-            <! 2nd table within plsyer information>
-            <table class="table_player_information_position"
-            
-		            <tr class="row_player_information_date_of_birth">
-                    <td class="element_player_information_date_of_birth_label" valign="top"><label for="element_player_information_date_of_birth_label">Date of Birth:</label></td>
+                
+                <! Row 3 within player information>
+                <tr class="row_player_information_school">
+	                
+	                <td class="element_player_information_date_of_birth_label" valign="top"><label for="element_player_information_date_of_birth_label">Date of Birth:</label></td>
 
                     <td class="element_player_information_date_of_birth_dropdowns">
                     <select name="date_of_birth_Month">
@@ -195,12 +194,22 @@
 	<option value="1960">1960</option>
 </select>
                     </td>
-                </tr>
+
+                                       
+                    <td class="element_player_information_graduation_year_label" valign="top"><label for="element_player_information_graduation_year_label">Graduation Year:</label></td>
+
+                    <td class="element_player_information_graduation_year_text" valign="top"><input type="text" placeholder="Graduation Year" name="element_player_information_graduation_year_text" maxlength="50" size="20"></td>
+
+            </table>
+            
+            <! 2nd table within plsyer information>
+            <table class="table_player_information_position"
 
 		        <tr class="row_player_information_position">
 	                <td class="element_player_information_position_label" valign="top"><labelfor="element_player_information_position_label">Position:</label></td>
                     
-                    <td class="element_player_information_position_checkboxes" valign="top"><labelfor="element_player_information_position_checkboxes"<label><input type="checkbox" name="Midfield" value="Midfield"> Midfield</label>
+                    <td class="element_player_information_position_checkboxes" valign="top"><labelfor="element_player_information_position_checkboxes"
+<label><input type="checkbox" name="Midfield" value="Midfield"> Midfield</label>
 <label><input type="checkbox" name="Attack" value="Attack"> Attack</label>
 <label><input type="checkbox" name="LSM" value="LSM"> LSM</label>
 <label><input type="checkbox" name="Defense" value="Defense"> Defense</label>
@@ -224,33 +233,41 @@
             <table class="table_parent_information" align="center">
                 
                 <! Row 1 within parent/guardian information>
-                <tr class="row_parent_information_first_name">
-                    <td class="element_parent_information_first_name_label" valign="top"><label for="element_parent_information_first_name_label">First Name:</label></td>
+                <tr class="row_parent_information_name">
+                    <td class="element_parent_information_name_label" valign="top"><label for="element_parent_information_name_label">Name:</label></td>
 
-                    <td class="element_parent_information_first_name_text" valign="top"><input type="text" placeholder="First Name" name="element_parent_information_first_name_text" maxlength="50" size="20"></td>
+                    <td class="element_parent_information_name_text" valign="top"><input type="text" placeholder="Name" name="element_parent_information_name_text" maxlength="50" size="20"></td>
+                    
+                    <td class="element_parent_information_home_phone_label" valign="top"><label for="element_parent_information_home_phone_label">Home Phone:</label></td>
 
-                    <td class="element_parent_information_last_name_label" valign="top"><label for="element_parent_information_last_name_label">Last Name:</label></td>
-
-                    <td class="element_parent_information_last_name_text" valign="top"><input type="text" placeholder="Last Name" name="element_parent_information_last_name_text" maxlength="50" size="20"></td>
+                    <td class="element_parent_information_home_phone_text" valign="top"><input type="text" placeholder="Home Phone" name="element_parent_information_home_phone_text" maxlength="50" size="20"></td>    
                 </tr>
 
                 <! Row 2 within parent/guardian information>
-                <tr class="row_parent_information_home_phone">
-                    <td class="element_parent_information_home_phone_label" valign="top"><label for="element_parent_information_home_phone_label">Home Phone:</label></td>
-
-                    <td class="element_parent_information_home_phone_text" valign="top"><input type="text" placeholder="Home Phone" name="element_parent_information_home_phone_text" maxlength="50" size="20"></td>
-
+                <tr class="row_parent_information_cell_phone">
                     <td class="element_parent_information_cell_phone_label" valign="top"><label for="element_parent_information_cell_phone_label">Cell Phone:</label></td>
 
                     <td class="element_parent_information_cell_phone_text" valign="top"><input type="text" placeholder="Cell Phone" name="element_parent_information_cell_phone_text" maxlength="50" size="20"></td>
-                </tr>
-
-                <! Row 3 within parent/guardian information>
-                <tr class="row_parent_information_email_address">
+                    
                     <td class="element_parent_information_email_address_label" valign="top"><label for="element_parent_information_email_address_label">Email Address:</label></td>
 
                     <td class="element_parent_information_email_address_text" valign="top"><input type="text" placeholder="Email Address" name="element_parent_information_email_address_text" maxlength="50" size="20"></td>
                 </tr>
+            </table>
+
+                <! 2nd table within parent information>
+                <table class="table_parent_information_address" >
+                <! Row 3 within parent/guardian information>
+                <tr class="row_parent_information_address">
+	                <td class="element_parent_information_address_label" valign="top"><label for="element_parent_information_address_label">Address:</label></td>
+
+                    <td class="element_parent_information_address_1_text" valign="top"><input type="text" placeholder="Street Address" name="element_parent_information_address_1_text" maxlength="50" size="20"></td>
+                    
+                    <td class="element_parent_information_address_2_text" valign="top"><input type="text" placeholder="City" name="element_parent_information_address_2_text" maxlength="50" size="20"></td>
+
+                    <td class="element_parent_information_address_3_text" valign="top"><input type="text" placeholder="Zip Code" name="element_parent_information_address_3_text" maxlength="50" size="20"></td>
+                </tr>
+
             </table>
         </fieldset>
 
@@ -268,26 +285,34 @@
             <table class="table_emergency_contact_information" align="center">
                 
                 <! Row 1 within emergency contact information>
-                <tr class="row_emergency_contact_information_first_name">
-                    <td class="element_emergency_contact_information_first_name_label" valign="top"><label for="element_emergency_contact_information_first_name_label">First Name:</label></td>
+                <tr class="row_emergency_contact_information_name">
+                    <td class="element_emergency_contact_information_name_label" valign="top"><label for="element_emergency_contact_information_name_label">Name:</label></td>
 
-                    <td class="element_emergency_contact_information_first_name_text" valign="top"><input type="text" placeholder="First Name" name="element_emergency_contact_information_first_name_text" maxlength="50" size="20"></td>
+                    <td class="element_emergency_contact_information_name_text" valign="top"><input type="text" placeholder="Name" name="element_emergency_contact_information_name_text" maxlength="50" size="20"></td>
+                    
+                    <td class="element_emergency_contact_information_relation_to_player_label" valign="top"><label for="element_emergency_contact_information_relation_to_player_label">Relation to Player:</label></td>
 
-                    <td class="element_emergency_contact_information_last_name_label" valign="top"><label for="element_emergency_contact_information_last_name_label">Last Name:</label></td>
-
-                    <td class="element_emergency_contact_information_last_name_text" valign="top"><input type="text" placeholder="Last Name" name="element_emergency_contact_information_last_name_text" maxlength="50" size="20"></td>
+                    <td class="element_emergency_contact_information_relation_to_player_text" valign="top"><input type="text" placeholder="Relationship to Player " name="element_emergency_contact_information_relation_to_player_text" maxlength="50" size="20"></td>    
                 </tr>
 
                 <! Row 2 within emergency contact information>
-                <tr class="row_emergency_contact_information_relation_to_player">
-                    <td class="element_emergency_contact_information_relation_to_player_label" valign="top"><label for="element_emergency_contact_information_relation_to_player_label">Relation to Player:</label></td>
-
-                    <td class="element_emergency_contact_information_relation_to_player_text" valign="top"><input type="text" placeholder="Relationship to Player " name="element_emergency_contact_information_relation_to_player_text" maxlength="50" size="20"></td>
-
+                <tr class="row_emergency_contact_information_phone_number">
                     <td class="element_emergency_contact_information_phone_number_label" valign="top"><label for="element_emergency_contact_information_phone_number_label">Phone Number:</label></td>
 
                     <td class="element_emergency_contact_information_phone_number_text" valign="top"><input type="text" placeholder="Phone Number" name="element_emergency_contact_information_phone_number_text" maxlength="50" size="20"></td>
                 </tr>
+                
+                <! Row 3 within emergency contact information>
+                <tr class="row_emergency_contact_information_insurance_provider">
+                    <td class="element_emergency_contact_information_insurance_provider_label" valign="top"><label for="element_emergency_contact_information_insurance_provider_label">Insurance Provider:</label></td>
+
+                    <td class="element_emergency_contact_information_insurance_provider_text" valign="top"><input type="text" placeholder="Insurance Provider" name="element_emergency_contact_information_insurance_provider_text" maxlength="50" size="20"></td>
+
+                    <td class="element_emergency_contact_information_insurance_policy_#" valign="top"><label for="element_emergency_contact_information_insurance_policy_#_label">Insurance Policy #:</label></td>
+
+                    <td class="element_emergency_contact_information_insurance_policy_#_text" valign="top"><input type="text" placeholder="Insurance Policy #" name="element_emergency_contact_information_insurance_policy_#_text" maxlength="50" size="20"></td>
+                </tr>
+
             </table>
         </fieldset>
         
@@ -335,7 +360,7 @@
                 <! Table next to the other table in setup in your account. Contains comments>
                 <table class="table_setup_your_account_comments" align="right"> 
 	                
-	              <td class="element_emergency_contact_information_comments_text" valign="top"><textarea placeholder="Comments" name="element_emergency_contact_information_comments_text" maxlength="1000" cols="25" rows="6">
+	              <td class="element_emergency_contact_information_comments_text" valign="top"><textarea placeholder="Comments" name="element_emergency_contact_information_comments_text" maxlength="1000" cols="32" rows="5">
 </textarea></td>
   
 				</table> 
