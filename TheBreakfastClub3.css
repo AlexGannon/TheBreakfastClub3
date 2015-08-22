@@ -176,5 +176,39 @@ h1{
 
 
 
+@media only screen and (max-width: 706px){
+	
+.fieldset_player_information{
+	width: 300px;
+	height: 300px;
+	margin:auto;
+	margin-bottom: 20px;
+}
+
+.table_player_information{
+	font-family: HelveticaNeue-Light;
+	width: 300px;
+	height: 200px;
+	table-layout: fixed;
+	flex-direction: column;
+}
+
+.row_player_information_name{
+	display: block;
+	float: left;
+}
+
+.element_player_information_nickname_label{
+	display: block;
+	float: left;
+}
+
+
+
+}
+
+
+
+
 
 
